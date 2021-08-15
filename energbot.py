@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('1615010329:AAEsPRTQjvImU-HtS_cMjLgdn2otMDiVhdk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
